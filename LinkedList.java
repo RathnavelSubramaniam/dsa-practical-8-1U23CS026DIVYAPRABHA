@@ -62,20 +62,20 @@ int data,data1;
         }
     }
       public void insertEnd(int data) 
-    {
-      Node newNode=new Node(data);
-      if(head==null){
+    {    
+       Node newNode=new Node(data);
+       if(head==null){
         head=newNode;
         tail=newNode;
-      }
-      else{
+       }
+       else{
         Node temp=head;
         while(temp.next!=null){
           temp=temp.next;
         }
         temp.next=newNode;
-        System.out.println("Element Inserted");
-      }
+        System.out.println("ELEMENT INSERTED");
+       }
     }
      
 public void displayList() {
